@@ -1,0 +1,6 @@
+module Pods_MyWine_MyWineTests {
+  umbrella header "Pods-MyWine-MyWineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
