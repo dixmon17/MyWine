@@ -8,57 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MyWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyWineTests.m */; };
-		03E46B54F91A4E0684684F08 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E726142FA251416AA3928B2C /* OpenSans-Regular.ttf */; };
-		06CBF3161DE14398AD16B1F3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97CF1D6282F74120A2623A0F /* MaterialCommunityIcons.ttf */; };
-		0AEB397BB99F4012B71EE09E /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3493739BBC5143F6B41F16EC /* Fontisto.ttf */; };
 		0CED5A60646943019BD252FC /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD8D06C87F254743B58A7010 /* Ubuntu-MediumItalic.ttf */; };
-		12B4288EFEF344859A24C653 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B34D40914DA744709395BE2E /* Foundation.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		18335314F4074737973E06F6 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9D10ABB74A87B39061A0 /* Feather.ttf */; };
-		20F01643822444229E51137C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 549B3826150E4463A227D40D /* FontAwesome.ttf */; };
-		27F1A0ED77C5460CAD575AE2 /* Petrona-Regular copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47AED7B0C8A043F1BCB951FA /* Petrona-Regular copy.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MyWineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyWineTests.m */; };
 		2EE2DACC4BE94D549B2ADF89 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1A2C798B3D4BF58A192BE1 /* Ubuntu-Regular.ttf */; };
-		31F7C80517E44E57BB035A0C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89DE02C9CF1844D4BCF882D9 /* EvilIcons.ttf */; };
-		381D728BBE944E7EBD47B08E /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF7357FC2A2414AAC95AF32 /* FontAwesome5_Solid.ttf */; };
-		6667538832BE4B5F83968222 /* LibreBaskerville-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 605B908260E2443287A32E43 /* LibreBaskerville-Bold.ttf */; };
-		6C0B3F9E47A44DFBAFF0F2CE /* OpenSans-Regular copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0970DD0D86F04D67BA07CDE3 /* OpenSans-Regular copy.ttf */; };
+		3DD8F26F26128D6100DD34B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8F26E26128D6100DD34B0 /* GoogleService-Info.plist */; };
 		6D4F6AA4BD2F459ABD5C9A06 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAD7F12A4BD14F99979981F1 /* Ubuntu-Light.ttf */; };
-		706B4BF8E85443DCA6CF9BED /* YoungSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EA923F04DE04A8A87E1EA82 /* YoungSerif-Regular.ttf */; };
-		7794583DB49A44D3B54926B2 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A84689DD6EEE40C4AEA00741 /* OpenSans.ttf */; };
 		799050E95DF14656BAEF644C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 096C9DD0896344E98D4AF672 /* OpenSans-Regular.ttf */; };
-		8340145D87CD46019857CA3F /* LibreBaskerville-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 839F9D11805B41288872B5F2 /* LibreBaskerville-Italic.ttf */; };
 		879CA401C635BDF09A6FB750 /* libPods-MyWine-MyWineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0C95E7A5589002151D2880 /* libPods-MyWine-MyWineTests.a */; };
 		8F6D1D03E5DD46F38FB66410 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3AD257B5C6B49059F1F0D90 /* Ubuntu-Italic.ttf */; };
 		9123AFD2A774484783077ED7 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBA901197F0B40FABD9167B7 /* Ubuntu-LightItalic.ttf */; };
 		9605D228C5DD4AF88E48C50F /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4A587E6FFD14A59B529D681 /* Ubuntu-Medium.ttf */; };
 		9EA4E4CBF3AC43D3BF23A402 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF17D471936543B69941E368 /* Ubuntu-Bold.ttf */; };
-		A5E6D1CB3DF24C319F123356 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A126917B1F8B469A996BF4EE /* Ionicons.ttf */; };
-		A91A7894D827483DAD280538 /* opensans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83E524D972AC413E8513FD7F /* opensans.ttf */; };
-		A9D00C7A7BEE4DBD8936CF13 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED7804E69544BC2B3006F17 /* Zocial.ttf */; };
 		AD8353E27D2CFC15F2FB5B86 /* libPods-MyWine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA80925FEA0853B4A0F6BF3 /* libPods-MyWine.a */; };
-		B2682505840C4BEF91F5FE33 /* Petrona-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D205DBDC6CCD4A8EAEC9DB81 /* Petrona-Regular.ttf */; };
-		B76BD82B204C40D889728A67 /* LibreBaskerville-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26E28E4C3A2749BB964056E2 /* LibreBaskerville-Regular.ttf */; };
 		B7758EDB3EBA48A4B6CEFD3D /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE491031AB944D18B85AE23D /* Ubuntu-BoldItalic.ttf */; };
-		BC482B26CC8644EBBBACB965 /* Petrona-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CCA39945EE34DAB884AF668 /* Petrona-Regular.ttf */; };
-		BD0499EFECAD4226839A2793 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBFF60D7520743F286878888 /* SimpleLineIcons.ttf */; };
-		C20E147E32FF4F17A8F60C1B /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CA700F7284820A277CBCF /* Octicons.ttf */; };
-		C7C14204841848C6A47DFCAC /* OpenSans-Light copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D14F0789E90C46CDABD95D6B /* OpenSans-Light copy.ttf */; };
 		CD8D6E7FA13B41DE91398975 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8611CA6FCA344875AC9B9894 /* OpenSans-Light.ttf */; };
-		D49A50AB64854E9D88D9E4A3 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E5FFB5A95A44E7785D6133B /* Entypo.ttf */; };
 		D948B872F64C42C78EFC43C1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 490E3361919B47A7B9A4B8FA /* OpenSans-Bold.ttf */; };
-		E6316C0F1615499B815CEAA9 /* OpenSans-Bold copy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003D280CDDF54CB28053AD5F /* OpenSans-Bold copy.ttf */; };
-		E99CBCCE7F414D1692B2C40B /* Petrona.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DBE15D798140B3B0ADE770 /* Petrona.ttf */; };
-		F04761647DC647AAA915678A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CA182B9A8C4F02BD7DEDB6 /* MaterialIcons.ttf */; };
-		F1D2FD97C43448E6A4942879 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3409423094194970B11E137E /* AntDesign.ttf */; };
-		F9F230D346EB44A88BF1A741 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3461CB12E4A188B0FF21B /* FontAwesome5_Brands.ttf */; };
-		FD18A686FD1C43C4897A6274 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBDC8538F059481E8FD7061A /* FontAwesome5_Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +76,7 @@
 		2D02E4901E0B4A5D006451C7 /* MyWine-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyWine-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3409423094194970B11E137E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
 		3493739BBC5143F6B41F16EC /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		3DD8F26E26128D6100DD34B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		47AED7B0C8A043F1BCB951FA /* Petrona-Regular copy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Petrona-Regular copy.ttf"; path = "../assets/fonts/Petrona-Regular copy.ttf"; sourceTree = "<group>"; };
 		490E3361919B47A7B9A4B8FA /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		4C7DE1E1CEC21E3FEC5B7A54 /* Pods-MyWine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWine.debug.xcconfig"; path = "Target Support Files/Pods-MyWine/Pods-MyWine.debug.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +217,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3DD8F26E26128D6100DD34B0 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* MyWine */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MyWineTests */,
@@ -434,7 +407,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -489,37 +462,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				A91A7894D827483DAD280538 /* opensans.ttf in Resources */,
-				E99CBCCE7F414D1692B2C40B /* Petrona.ttf in Resources */,
-				7794583DB49A44D3B54926B2 /* OpenSans.ttf in Resources */,
-				03E46B54F91A4E0684684F08 /* OpenSans-Regular.ttf in Resources */,
-				B2682505840C4BEF91F5FE33 /* Petrona-Regular.ttf in Resources */,
 				799050E95DF14656BAEF644C /* OpenSans-Regular.ttf in Resources */,
-				BC482B26CC8644EBBBACB965 /* Petrona-Regular.ttf in Resources */,
 				D948B872F64C42C78EFC43C1 /* OpenSans-Bold.ttf in Resources */,
 				CD8D6E7FA13B41DE91398975 /* OpenSans-Light.ttf in Resources */,
-				F1D2FD97C43448E6A4942879 /* AntDesign.ttf in Resources */,
-				D49A50AB64854E9D88D9E4A3 /* Entypo.ttf in Resources */,
-				31F7C80517E44E57BB035A0C /* EvilIcons.ttf in Resources */,
-				18335314F4074737973E06F6 /* Feather.ttf in Resources */,
-				20F01643822444229E51137C /* FontAwesome.ttf in Resources */,
-				F9F230D346EB44A88BF1A741 /* FontAwesome5_Brands.ttf in Resources */,
-				FD18A686FD1C43C4897A6274 /* FontAwesome5_Regular.ttf in Resources */,
-				381D728BBE944E7EBD47B08E /* FontAwesome5_Solid.ttf in Resources */,
-				0AEB397BB99F4012B71EE09E /* Fontisto.ttf in Resources */,
-				12B4288EFEF344859A24C653 /* Foundation.ttf in Resources */,
-				A5E6D1CB3DF24C319F123356 /* Ionicons.ttf in Resources */,
-				6667538832BE4B5F83968222 /* LibreBaskerville-Bold.ttf in Resources */,
-				8340145D87CD46019857CA3F /* LibreBaskerville-Italic.ttf in Resources */,
-				B76BD82B204C40D889728A67 /* LibreBaskerville-Regular.ttf in Resources */,
-				06CBF3161DE14398AD16B1F3 /* MaterialCommunityIcons.ttf in Resources */,
-				F04761647DC647AAA915678A /* MaterialIcons.ttf in Resources */,
-				C20E147E32FF4F17A8F60C1B /* Octicons.ttf in Resources */,
-				E6316C0F1615499B815CEAA9 /* OpenSans-Bold copy.ttf in Resources */,
-				C7C14204841848C6A47DFCAC /* OpenSans-Light copy.ttf in Resources */,
-				6C0B3F9E47A44DFBAFF0F2CE /* OpenSans-Regular copy.ttf in Resources */,
-				27F1A0ED77C5460CAD575AE2 /* Petrona-Regular copy.ttf in Resources */,
-				BD0499EFECAD4226839A2793 /* SimpleLineIcons.ttf in Resources */,
 				9EA4E4CBF3AC43D3BF23A402 /* Ubuntu-Bold.ttf in Resources */,
 				B7758EDB3EBA48A4B6CEFD3D /* Ubuntu-BoldItalic.ttf in Resources */,
 				8F6D1D03E5DD46F38FB66410 /* Ubuntu-Italic.ttf in Resources */,
@@ -528,8 +473,7 @@
 				9605D228C5DD4AF88E48C50F /* Ubuntu-Medium.ttf in Resources */,
 				0CED5A60646943019BD252FC /* Ubuntu-MediumItalic.ttf in Resources */,
 				2EE2DACC4BE94D549B2ADF89 /* Ubuntu-Regular.ttf in Resources */,
-				706B4BF8E85443DCA6CF9BED /* YoungSerif-Regular.ttf in Resources */,
-				A9D00C7A7BEE4DBD8936CF13 /* Zocial.ttf in Resources */,
+				3DD8F26F26128D6100DD34B0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -884,13 +828,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C1AE20DFEB2DBCB7E4EFD3F /* Pods-MyWine-MyWineTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = MyWineTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -907,10 +852,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B00CE7C90CE9AEE48E8B395 /* Pods-MyWine-MyWineTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = MyWineTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -996,7 +942,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1023,7 +969,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1049,7 +995,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWine-tvOS.app/MyWine-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1075,7 +1021,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWine-tvOS.app/MyWine-tvOS";
-				TVOS_DEPLOYMENT_TARGET = 10.1;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1102,6 +1048,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1127,7 +1074,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
@@ -1163,6 +1110,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1181,7 +1129,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
