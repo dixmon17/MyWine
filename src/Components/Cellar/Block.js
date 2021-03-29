@@ -27,7 +27,7 @@ class Block extends React.Component {
     this.props.navigation.navigate('CellarTab', {
       screen: 'Block'
     });
-    //TODO : AFFICHER UNIQUEMENT LES CAVES QUI CONTIENNENT LE VINnefefe
+    //TODO : AFFICHER UNIQUEMENT LES CAVES QUI CONTIENNENT LE VIN
   }
 
   //Arreter la recherche d'un vin
