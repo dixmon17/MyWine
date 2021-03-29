@@ -1,0 +1,29 @@
+{
+  "name": "RNNumberSelector",
+  "version": "1.0.1",
+  "summary": "React Native: Native Number Selector",
+  "description": "React Native: Native Number Selector",
+  "homepage": "https://github.com/prscX/react-native-number-selector.git",
+  "license": "Apache License 2.0",
+  "authors": "Pranav Raj Singh Chauhan",
+  "source": {
+    "git": "https://github.com/prscX/react-native-number-selector.git",
+    "tag": "master"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "preserve_paths": [
+    "LICENSE",
+    "package.json"
+  ],
+  "source_files": "**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ],
+    "AKPickerView": [
+
+    ]
+  }
+}
