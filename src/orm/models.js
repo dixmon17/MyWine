@@ -3,7 +3,7 @@ import { Model, fk, attr, many, oneToOne } from 'redux-orm'
 import firestore from '@react-native-firebase/firestore'
 import auth from '@react-native-firebase/auth'
 import { getUniqueId } from 'react-native-device-info'
-//Test
+
 function _setFirebase(db, entity) {
   let user = auth().currentUser
 
