@@ -62,3 +62,6 @@ buck-out/
 .vscode/settings.json
 .vscode/.react/debuggerWorker.js
 # Pods/
+
+# Added
+.env
