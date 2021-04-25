@@ -19,12 +19,14 @@ class Cellar extends React.Component {
   constructor(props) {
     super(props)
 
-    this.select
-
+    
     this.state = {
       cellar: ( props.route.params && props.route.params.cellarId ? this.props.cellars.find(c => c.id === props.route.params.cellarId) : this.props.cellars[0] ),
       options:0
     }
+
+    this.refresh=0
+    this.select=this.state.cellar.id
     if (Platform.OS === 'android') { UIManager.setLayoutAnimationEnabledExperimental(true); }
   }
 
@@ -70,8 +72,9 @@ class Cellar extends React.Component {
         {(data.length>1?(<Badge style={[{backgroundColor:colors.blue,paddingLeft: 8,paddingRight: 8, alignSelf: 'center'},globalStyles.mr10]} size={20}>{data.length} caves</Badge>):null)}
         <Picker
           data={data}
-          selectedValue={ data.find(d => d.id === this.select) }
+          selectedValue={this.state.cellar.id}
           onChange={ (value) => this._onChangeCellar(value) }
+          key={[this.state.cellar.id,this.select,this.refresh]}
         />
       </View>
     )
@@ -135,7 +138,11 @@ class Cellar extends React.Component {
     //Si l'on a créé la première cave ou si l'on a supprimé la cave active
     if ((!this.state.cellar && this.props.cellars.length > 0) || (!this.props.cellars.find(c => c.id === this.state.cellar.id) && this.props.cellars.length > 0)) {
       this.setState({cellar:this.props.cellars[0]})
+      return
     }
+
+    //Si l'on a modifié la cave active
+    this.refresh++
   }
 
   _toBlock = (blockId, searchId) => {

@@ -277,18 +277,7 @@ const styles = StyleSheet.create({
 })
 const mapDispatchToProps = dispatch => {
 	return {
-    successLogin: data => dispatch({type:'SUCCESS_LOGIN', payload:data}),
-    initialization: data => dispatch({type:'UPDATE_INITIALIZATION', payload:data}),
-    isVerified: data => dispatch({type:'IS_VERIFIED'}),
-    restoreCountry: data => dispatch({type:'FIXTURES_COUNTRY',payload:data}),
-    restoreRegion: data => dispatch({type:'FIXTURES_REGION',payload:data}),
-    restoreAppellation: data => dispatch({type:'FIXTURES_APPELLATION',payload:data}),
-    restoreDomain: data => dispatch({type:'FIXTURES_DOMAIN',payload:data}),
-    restoreWine: data => dispatch({type:'FIXTURES_WINE',payload:data}),
-    restoreCellar: data => dispatch({type:'FIXTURES_CELLAR',payload:data}),
-    restoreBlock: data => dispatch({type:'FIXTURES_BLOCK',payload:data}),
-    restorePosition: data => dispatch({type:'FIXTURES_POSITION',payload:data}),
-    restoreSearch: data => dispatch({type:'FIXTURES_SEARCH',payload:data}),
+    successLogin: data => dispatch({type:'SUCCESS_LOGIN', payload:data})
 	}
 }
 

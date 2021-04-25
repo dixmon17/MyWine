@@ -11,7 +11,7 @@ class Picker extends React.Component {
     super(props)
 
     this.state = {
-      value: this.props.selectedValue,
+      value: this.props.data.find(d => d.value === this.props.selectedValue),
       isModalVisible:false,
     }
   }
@@ -44,6 +44,7 @@ class Picker extends React.Component {
                  style={styles.list_line}
                >
                 {(item.icon?<Icon name={item.icon} color={(item.color?item.color:colors.darkblue)} size={15} style={globalStyles.mr10} />:null)}
+                {(item.value===this.props.selectedValue?<Icon name='check' color={colors.darkblue} size={15} style={globalStyles.mr10} />:null)}
                 <Text style={[globalStyles.bold,{color:(item.color?item.color:colors.darkblue)}]}>{item.label}</Text>
                </TouchableOpacity>
               )}

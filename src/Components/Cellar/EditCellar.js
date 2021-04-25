@@ -18,19 +18,19 @@ class EditCellar extends React.Component {
   constructor(props) {
     super(props)
 
-    this.select
-
+    
     let cellar = {}
-
+    
     if (this.props.route.params && this.props.cellars.length > 0) {
       cellar=this.props.cellars.find(c => c.id === this.props.route.params.cellarId)
     } else if (this.props.cellars.length > 0) {
       cellar=this.props.cellars[0]
     }
-
+    
     this.state={
       cellar:cellar
     }
+    this.select = cellar.id
     this.cellarName=cellar.name
   }
 
@@ -58,23 +58,13 @@ class EditCellar extends React.Component {
         <Picker
           style={styles.picker}
           data={data}
-          selectedValue={ data.find(d => d.id === this.select) }
+          selectedValue={ this.state.cellar.id }
           onChange={ (value) => this._onChangeCellar(value) }
+          key={this.state.cellar.id}
         />
       </View>
     )
   }
-
-  // _cellarSelect = () => {
-  //   let items = []
-  //   this.props.cellars.map(c =>
-  //     items.push(
-  //       <Picker.Item label={c.name} value={c.id} key={c.id}/>
-  //     )
-  //   )
-  //   items.push(<Picker.Item label="Créer une nouvelle cave" value={0} key={0}/>)
-  //   return items
-  // }
 
   _onChangeCellar(cellarId) {
     if (cellarId === this.select) return
@@ -90,7 +80,7 @@ class EditCellar extends React.Component {
     }
     this.setState({
       cellar: this.props.cellars.find(c => c.id === cellarId)
-    })
+    }, () => this.cellarName = this.state.cellar.name)
   }
 
   _nameTextInputChange(text) {
@@ -114,7 +104,7 @@ class EditCellar extends React.Component {
     blocks.map(b => this.props.removeBlock(b.id))
     this.props.removeCellar(this.state.cellar.id)
 
-    this.setState({cellar:this.props.cellars[0]})
+    this._onChangeCellar(this.state.cellar.id === this.props.cellars[0].id?this.props.cellars[1].id:this.props.cellars[0].id)
   }
 
   _toBlock = (blockId, searchId) => {
