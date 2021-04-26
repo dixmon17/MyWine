@@ -27,7 +27,7 @@ class SelectSize extends React.Component {
 	render() {
 		return (
       <View>
-        <Modal isVisible={this.state.isModalVisible}>
+        <Modal animationOutTiming={500} animationIn="zoomInUp" useNativeDriver={true} onBackdropPress={() => this.setState({isModalVisible: !this.state.isModalVisible})} onBackButtonPress={() => this.setState({isModalVisible: !this.state.isModalVisible})} isVisible={this.state.isModalVisible}>
           <View
            style={{flex: 1, backgroundColor: 'white', justifyContent: 'space-between', borderRadius: 20, overflow: 'hidden', marginTop: 30, marginBottom: 30}}
           >

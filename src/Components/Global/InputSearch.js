@@ -47,7 +47,7 @@ class InputSearch extends React.Component {
   _searchTextInputChanged(text) {
     this.searchedText = text
 
-    let results = getResults(this.searchedText, this.props.data)
+    let results = getResults(this.searchedText, this.props.data, this.props.customOptions)
 
     if ((results.length > 0 || results.length === 0) && this.searchedText.length > 0) results.push({item:{nameWithSpace:this.searchedText,entity:[],cat:this.props.addLabel,add:true},refIndex:-1})
     this.setState({

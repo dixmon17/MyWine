@@ -12,6 +12,7 @@ import globalStyles from '../Global/globalStyles'
 import colors from '../Global/colors'
 import Shadow from '../Global/Shadow'
 import { Badge } from 'react-native-paper'
+import { sort } from '../../method/object'
 
 class EditCellar extends React.Component {
 
@@ -42,7 +43,8 @@ class EditCellar extends React.Component {
     this.props.cellars.map(c =>
       data.push({
         label:c.name,
-        value:c.id
+        value:c.id,
+        createdAt:c.createdAt
       })
     )
     data.push({
@@ -57,7 +59,7 @@ class EditCellar extends React.Component {
         {(data.length-1>1?(<Badge style={[{backgroundColor:colors.blue,paddingLeft: 8,paddingRight: 8, alignSelf: 'center'},globalStyles.mr10]} size={20}>{data.length-1} caves</Badge>):null)}
         <Picker
           style={styles.picker}
-          data={data}
+          data={sort(data,'createdAt')}
           selectedValue={ this.state.cellar.id }
           onChange={ (value) => this._onChangeCellar(value) }
           key={this.state.cellar.id}

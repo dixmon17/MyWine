@@ -429,6 +429,7 @@ class DispatchContainer extends React.Component {
         cat={this.region.name}
         placeholder="Château Margaux, Château Latour..."
         addLabel="Ajouter un nouveau domaine"
+        customOptions={{ ignoreLocation: true }}
         submit={this._submitDomain}
         key={this.state.screen}
       />

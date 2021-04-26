@@ -232,7 +232,7 @@ export const getVarietiesOfWine = createSelector(
       if (!variety) continue
       varieties.push({name:variety.name, id: varietyPercentages[i].variety.id, percent:varietyPercentages[i].variety.percent})
     }
-    return varieties
+    return sort(varieties,'percent','desc')
   }
 )
 
