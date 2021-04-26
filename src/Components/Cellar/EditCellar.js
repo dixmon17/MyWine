@@ -31,7 +31,7 @@ class EditCellar extends React.Component {
     this.state={
       cellar:cellar
     }
-    this.select = cellar.id
+    this.select = (cellar?cellar.id:null)
     this.cellarName=cellar.name
   }
 
