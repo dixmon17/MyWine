@@ -26,7 +26,7 @@ class Cellar extends React.Component {
     }
 
     this.refresh=0
-    this.select=this.state.cellar.id
+    this.select=(this.state.cellar?this.state.cellar.id:null)
     if (Platform.OS === 'android') { UIManager.setLayoutAnimationEnabledExperimental(true); }
   }
 
